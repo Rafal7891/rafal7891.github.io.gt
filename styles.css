@@ -1,0 +1,172 @@
+body {
+    font-family: 'Oswald';
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.3px;
+    /* background-image: url("https://c4.wallpaperflare.com/wallpaper/586/603/742/minimalism-4k-for-mac-desktop-wallpaper-preview.jpg"); */
+    /* margin-left: 100px;
+    margin-top: 100px; */
+}
+
+* {
+    box-sizing: border-box;
+   
+}
+
+
+table {
+    /* text-align: center; */
+    line-height: 200%;
+    width: 300px;
+    height: 200px;
+    border-top: 5px solid #FF66CE;
+    color: aquamarine;
+    font-weight: bold;
+ 
+}
+table th {
+    text-align: left;
+    color: #2a362a;
+}
+
+/* body {
+color: green
+    
+} */
+
+h3 {
+
+    color: green;
+    font-size: 34px;
+    font-weight: 900;
+    margin: 0;
+
+}
+h1 {
+
+    color: purple;
+
+}
+p {
+
+    color: brown;
+    font-weight: bold;
+    margin: 0;
+    /* text-indent: 50px; */
+}
+
+.sup_elemet {
+
+    color: red;
+}
+footer strong {
+    text-decoration: underline wavy #FF66CE;
+}
+mark {
+    border-radius: 5px;
+}
+div#main-content {
+    /* background-color: #CACACA; */
+    background-image: linear-gradient(45deg,#776cb1, #cacaca);
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* border-style: solid; */
+}
+a:hover {
+    color:#FF66CE;
+}
+a {
+    color: #20d0ff;
+}
+table tr:first-child {
+    color:blue;
+}
+article {
+    margin-bottom: 60px;
+}
+
+#articles {
+    flex-grow: 1;
+   
+
+}
+#skills {
+    flex-grow: 1;
+    /* align-self: center; */
+   
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    /* background-color: #fff7f6; */
+    background-image: linear-gradient(45deg,#f5f3ff, #fff7f6);
+}
+footer {
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: #20d0ff;
+    color: #FF000F;
+}
+
+@media screen and (min-width: 600px) {
+    footer {
+        position:fixed;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    div#main-content, header {
+        flex-direction: column;
+        }
+    
+
+/* span {
+    display: block;
+} */
+/* .first-class {
+    color:red;
+}
+h1 {
+    color: green;
+}
+.third-class {
+    color: red !important;
+}
+#first-id {
+    color: blue;
+} */
+
+/* footer p {
+
+    color: red;
+} */
+
+/* footer > p {
+
+    color: red;
+} */
+/* sup.sup_elemet {
+
+    color: red;
+} */
+
+/* h3, p {
+
+    color: orange;
+} */
